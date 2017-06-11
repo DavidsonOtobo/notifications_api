@@ -36,7 +36,7 @@ client = stream.connect('r6h679xsbd7k', null, '25642');
 var user1 = client.feed('user', '1', readonlyToken);
 
 //gets data
-user1.get({limit:1, mark_seen:true})
+user1.get({limit:1})
     .then(function(data) { /* on success */ })
     .catch(function(reason) { /* on failure */ });
 
