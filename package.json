@@ -1,0 +1,14 @@
+{
+  "name": "ordrs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Buyer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Davidson Otobo",
+  "license": "ISC",
+  "dependencies": {
+    "getstream": "^3.5.0"
+  }
+}
